@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Navy blue background */
+}
+
+header {
+    background: #333; /* Header background color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Change to inline-block for box effect */
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px; /* Add some padding for better touch target */
+    border: 2px solid #fff; /* Create border for the box */
+    border-radius: 5px; /* Optional: create rounded corners */
+    transition: background 0.3s, color 0.3s; /* Transition effect on hover */
+
+}
+
+nav a:hover {
+    background: #fff; /* Change background on hover */
+    color: #CD5C5C; /* Change text color on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #FFCCFF; /* Section background color */
+    border-radius: 5px; /* Optional: create rounded corners */
+}
+
+.services-list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+
+.services-list li {
+    border: 1px solid #ccc; /* Create border for the box */
+    border-radius: 5px; /* Optional: create rounded corners */
+    padding: 10px;
+    margin-bottom: 10px; /* Add space between boxes */
+    background: #FFFFFF; /* Background color for list items */
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #FFFFFF; /* Background color for portfolio items */
+}
+
+footer {
+    background: #333; /* Footer background color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
